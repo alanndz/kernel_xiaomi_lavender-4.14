@@ -124,3 +124,6 @@ obj-$(CONFIG_KERNEL_CUSTOM_F7A)	+= lct_tp_info.o
 obj-$(CONFIG_KERNEL_CUSTOM_F7A)	+= lct_tp_work.o
 obj-$(CONFIG_KERNEL_CUSTOM_F7A)	+= lct_tp_gesture.o
 obj-$(CONFIG_KERNEL_CUSTOM_F7A)	+= lct_tp_grip_area.o
+
+subdir-ccflags-y += \
+    -Wno-implicit-function-declaration

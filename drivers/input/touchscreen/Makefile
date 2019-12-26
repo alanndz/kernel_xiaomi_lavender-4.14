@@ -119,11 +119,11 @@ obj-$(CONFIG_KERNEL_CUSTOM_D2S)	+= lct_ctp_upgrade.o
 obj-$(CONFIG_KERNEL_CUSTOM_D2S)	+= lct_if_ctp_upgrade.o
 
 # HMI_M6100_A01
-obj-$(CONFIG_KERNEL_CUSTOM_F7A)	+= lct_tp_selftest.o
-obj-$(CONFIG_KERNEL_CUSTOM_F7A)	+= lct_tp_info.o
-obj-$(CONFIG_KERNEL_CUSTOM_F7A)	+= lct_tp_work.o
-obj-$(CONFIG_KERNEL_CUSTOM_F7A)	+= lct_tp_gesture.o
-obj-$(CONFIG_KERNEL_CUSTOM_F7A)	+= lct_tp_grip_area.o
+obj-y	+= lct_tp_selftest.o
+obj-y	+= lct_tp_info.o
+obj-y	+= lct_tp_work.o
+obj-y	+= lct_tp_gesture.o
+obj-y	+= lct_tp_grip_area.o
 
 subdir-ccflags-y += \
     -Wno-implicit-function-declaration \

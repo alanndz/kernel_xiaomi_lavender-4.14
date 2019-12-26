@@ -184,7 +184,6 @@ dtb-$(CONFIG_ARCH_SM6150)	+= sm6150-rumi.dtb \
 	qcs610-iot.dtb \
 	qcs610-ipc.dtb \
 	qcs410-iot.dtb
-
 endif
 
 ifeq ($(CONFIG_BUILD_ARM64_DT_OVERLAY),y)
@@ -347,7 +346,7 @@ dtb-$(CONFIG_ARCH_SDM660) += sdm660-sim.dtb \
 	sdm660-pm660a-headset-jacktype-no-cdp.dtb \
 	sdm660-pm660a-headset-jacktype-no-rcm.dtb \
 	sdm660-usbc-audio-mtp.dtb \
-	sdm660-usbc-audio-rcm.dtb \
+	sdm660-usbc-audio-rcm.dtb
 endif
 
 ifeq ($(CONFIG_ARM64),y)
